@@ -1,0 +1,58 @@
+let shopItemsData = [
+    {
+        id: "ddd",
+        name: "Toy 1",
+        price: 45,
+        img: "./img/img1.jpg",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Aliquid, consequuntur provident. ",
+    },
+    {
+        id: "aaa",
+        name: "Toy 2",
+        price: 55,
+        img: "./img/img2.jpg",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Aliquid, consequuntur provident. ",
+    },
+    {
+        id: "bbbb",
+        name: "Toy 3",
+        price: 65,
+        img: "./img/img3.jpg",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Aliquid, consequuntur provident. ",
+    },
+    {
+        id: "rrrr",
+        name: "Toy 4",
+        price: 75,
+        img: "./img/img4.jpg",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Aliquid, consequuntur provident. ",
+    },
+    {
+        id: "llll",
+        name: "Toy 5",
+        price: 85,
+        img: "./img/img5.jpg",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Aliquid, consequuntur provident. ",
+    },
+    {
+        id: "xxxx",
+        name: "Toy 6",
+        price: 95,
+        img: "./img/img6.jpg",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Aliquid, consequuntur provident. ",
+    },
+    {
+        id: "ccccc",
+        name: "Toy 7",
+        price: 105,
+        img: "./img/img7.jpg",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Aliquid, consequuntur provident. ",
+    },
+    {
+        id: "nnnn",
+        name: "Toy 8",
+        price: 115,
+        img: "./img/img8.jpg",
+        desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit.Aliquid, consequuntur provident. ",
+    },
+];
