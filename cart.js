@@ -159,6 +159,6 @@ let clearCart = function () {
     basket = [];
     generateCartItems();
     calculation();
-    localStorage.setItem("data", JSON.stringify(basket));
+    localStorage.setItem("data1", JSON.stringify(basket));
 };
 totalAmount();

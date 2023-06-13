@@ -2,6 +2,8 @@
  * ! Generate shop
  *  todo : because the products are the same and repeated
  */
+// *todo lay du lieu ra vao localStorage, bo [] neu k co du lieu nao se day loi
+let basket = JSON.parse(localStorage.getItem("data")) || []; //rổ
 
 let shop = document.querySelector("#shop");
 
@@ -11,8 +13,6 @@ let shop = document.querySelector("#shop");
  * todo : { id : 'ssss', item : 1,} , id va so luong
  * todo :
  */
-// *todo lay du lieu ra vao localStorage, bo [] neu k co du lieu nao se day loi
-let basket = JSON.parse(localStorage.getItem("data")) || []; //rổ
 
 let generateShop = function () {
     return (shop.innerHTML = shopItemsData
@@ -20,6 +20,7 @@ let generateShop = function () {
             //destructor
             let { id, name, price, img, desc } = x;
             // *todo tim kiem de cap nhat moi thu cung luc
+
             let search =
                 basket.find(function (x) {
                     return x.id === id;
@@ -39,7 +40,7 @@ let generateShop = function () {
                         <i onclick="decrement(${id})" class="fa-solid fa-minus"></i>
                         <div id=${id} class="quantity">
                             ${search.item === undefined ? 0 : search.item} 
-                        </div>
+                        </div> 
                         <i onclick="increment(${id})" class="fa-solid fa-plus"></i>
                     </div>
                 </div>
@@ -53,6 +54,7 @@ generateShop();
 /**
  * ! Increment Function(tang),Decrement  Function(giam)
  */
+
 // Da co 1 loi do id co so , va chuoi
 let increment = function (id) {
     let selectedItem = id;
